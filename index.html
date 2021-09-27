@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website School</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- owl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+<body>
+  
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo detail">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL IMAGES -->
+    <section class="banner">
+    	<div class="owl-carousel owl-theme carousel-sliders">
+	    	<div class="item" style="background-image: url(images/slide1.jpg);">
+	        	<div class="overlay-bg cover-full"></div>
+	        	<div class="container">
+	            	<div class="caption">
+		                <h1 class="caption-heading">The perfect place for your family</h1>
+		                <a href="#" class="btn btn-secondary">View more</a>
+		            </div>  
+	            </div>
+	    	</div>
+	    	<div class="item" style="background-image: url(images/slide2.jpg);">
+	            <div class="overlay-bg cover-full"></div>
+	            <div class="container">
+	            	<div class="caption">
+		                <h1 class="caption-heading">The perfect place for your family</h1>
+		                <a href="#" class="btn btn-secondary">View more</a>
+		            </div>  
+	            </div>
+	        </div>  
+	    	<div class="item" style="background-image: url(images/slide3.jpg);">
+	            <div class="overlay-bg cover-full"></div>
+	            <div class="container">
+	            	<div class="caption">
+		                <h1 class="caption-heading">The perfect place for your family</h1>
+		                <a href="#" class="btn btn-secondary">View more</a>
+		            </div>  
+	            </div>
+	        </div>  
+    	</div>
+	    <div class="custom-nav owl-nav"></div>
+    </section>
+
+    <!-- WELCOME CONTENT -->
+    <section id="about" class="about">
+        <div class="container pt-5 pb-5">
+            <h1 class="section-title">About Us</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <p>Lorem ipsum gravida nibh vel velit auctor 
+                            aliquetn sollicitudirem quibibendum auci 
+                            elit cons equat ipsutis sem nibh id elit.
+                        </p>
+                        <img class="w-100 p-3" src="images/about.jpg" alt="School about">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <ul>
+                            <li>
+                                <i class="fas fa-trophy"></i>
+                                <h4>Comfortable</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ligula sit amet metus finibus elementum quis viverra ipsum.</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-bullhorn"></i>
+                                <h4>Quiet</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ligula sit amet metus finibus elementum quis viverra ipsum.</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-user-shield"></i>
+                                <h4>Distribution</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ligula sit amet metus finibus elementum quis viverra ipsum.</p>
+                            </li>
+                            <li>
+                                <i class="fas fa-id-card-alt"></i>
+                                <h4>Spacious</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ligula sit amet metus finibus elementum quis viverra ipsum.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <div class="row">
+            <div class="col-md-4 box-image">
+                <div class="image cover-full transition" style="background-image: url('images/service1.jpg');"></div>
+                <div class="shadow cover-full transition"></div>
+                <div class="desc center">
+                    <h4>Public Works</h4>
+                    <a href="#" class="btn-secondary">View more</a>
+                </div>  
+            </div>
+            <div class="col-md-4 box-image">
+                <div class="image cover-full transition" style="background-image: url('images/service2.jpg');"></div>
+                <div class="shadow cover-full transition"></div>
+                <div class="desc center">
+                    <h4>Real Estate</h4>
+                    <a href="#" class="btn-secondary">View more</a>
+                </div>  
+            </div>
+            <div class="col-md-4 box-image">
+                <div class="image cover-full transition" style="background-image: url('images/service3.jpg');"></div>
+                <div class="shadow cover-full transition"></div>
+                <div class="desc center">
+                    <h4>Industrial</h4>
+                    <a href="#" class="btn-secondary">View more</a>
+                </div>  
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="container pt-5 pb-5">
+            <h1 class="section-title">Projects</h1>
+            <div class="row">
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url('images/pro1.jpg');"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Bogota</h4>
+                            <a href="#">View more</a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url('images/pro2.jpg');"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Ciudad de Mexico</h4>
+                            <a href="#">View more</a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url('images/pro3.jpg');"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Lima</h4>
+                            <a href="#">View more</a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url('images/pro4.jpg');"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Madrid</h4>
+                            <a href="#">View more</a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url('images/pro5.jpg');"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Barcelona</h4>
+                            <a href="#">View more</a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url('images/pro6.jpg');"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Trujillo</h4>
+                            <a href="#">View more</a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+        <div class="container pt-5 pb-5">
+            <h1 class="section-title">What’s Our Customer Say</h1>
+            <div class="owl-carousel owl-theme carousel-testimonials">
+                <div class="item testimonial">
+                    <img class="transition" src="images/parent1.png" alt="testimonial detail">
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                            sollicitudirem quibibendum auci elit cons equat 
+                            ipsutis sem nibh id elit.</p>
+                        <h4>Alex Schmidt</h4>
+                        <h5>CEO Netflix</h5>
+                    </div>
+                </div>
+                <div class="item testimonial">
+                    <img class="transition" src="images/parent2.png" alt="testimonial detail">
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                            sollicitudirem quibibendum auci elit cons equat 
+                            ipsutis sem nibh id elit.</p>
+                        <h4>Alex Schmidt</h4>
+                        <h5>CEO Netflix</h5>
+                    </div>
+                </div>
+                <div class="item testimonial">
+                    <img class="transition" src="images/parent3.png" alt="testimonial detail">
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                            sollicitudirem quibibendum auci elit cons equat 
+                            ipsutis sem nibh id elit.</p>
+                        <h4>Alex Schmidt</h4>
+                        <h5>CEO Netflix</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact-desc">
+                        <h1 class="mb-5">Ready to start your project?</h1>
+                        <p>Lorem ipsum gravida nibh vel velit auctor aliquetn 
+                            sollicitudirem quibibendum auci elit cons equat 
+                            ipsutis sem nibh id elit.</p>
+                    </div>
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary" type="submit">Send my info</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer footer1">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <img class="foot-logo" src="images/logo.png" alt="Logo School">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 foot-col mb-2">
+                            <h4>About</h4>
+                            <p>123 Ave Street <br>
+                                Nortport, CT 104606<br>
+                                Phone: 51 044 220933</p>
+                        </div>
+                        <div class="col-md-4 foot-col mb-2">
+                            <h4>Contacts</h4>
+                            <p><a href="#">Blog & Articles</a></p>
+                            <p><a href="#">Terms and Conditions</a></p>
+                            <p><a href="#">Privacy Policy</a></p>
+                            <p><a href="#">Contact</a></p>
+                        </div>
+                        <div class="col-md-4 foot-col mb-2">
+                            <h4>Navigation</h4>
+                            <p><a href="#">About</a></p>
+                            <p><a href="#">Services</a></p>
+                            <p><a href="#">Projects</a></p>
+                            <p><a href="#">Testimonials</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </footer>
+    <footer class="footer footer2">
+        <div class="container pt-3 pb-2">
+            <div class="row">
+                <div class="col-md-8 foot-bottom-text">
+                    <p>Privacy Policy / Sample website education proposal - RibosMatic © 2021 
+                        / All Rights Reserved</p>
+                </div>
+                <div class="col-md-4 social-links content-right">
+                    <a href="#" class="fb">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="tw">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="ig">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JAVASCRIPT -->
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- owl js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <!-- custom js -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
